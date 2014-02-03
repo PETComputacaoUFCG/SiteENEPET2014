@@ -45,6 +45,11 @@ body {
   z-index: 10;
 }
 
+.navbar-inverse{
+	background-color: #faefd9;
+	color: #5A5A5A;
+}
+
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
