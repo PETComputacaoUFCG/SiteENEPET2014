@@ -29,9 +29,9 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
-.navbar-wrapper .navbar {
-  padding-left: 15px;
-  padding-right: 15px;
+.navbar-inverse{
+	background-color: #faefd9;
+	color: #5A5A5A;
 }
 
 /* RESPONSIVE CSS
