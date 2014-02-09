@@ -50,10 +50,22 @@ body {
 	color: #fffbdb;
 }
 
+.dropdown-toggle,.dropdown-toggle:hover{
+	background-color: #fcfae8;
+}
+
+.navbar-collapse:hover{
+	color:#bf3939	
+}
+
+.dropdown-menu,.dropdown-menu:hover{
+	background-color: #fcfae8;
+}
+
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color: #777;
+  
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -63,6 +75,22 @@ body {
   height: 500px;
 }
 
+.collapse:hover{
+	background-color:#bf3939;
+}
+
+
+
+.btn-default, .btn-default:hover{
+	background-color:#bf3939;
+	color:white;
+
+}
+
+.btn-primary, .btn-primary:hover {
+   background-color: #bf3939;
+   color:white;
+}
 
 
 /* MARKETING CONTENT
@@ -81,6 +109,7 @@ body {
 }
 .marketing h2 {
   font-weight: normal;
+  
 }
 .marketing .col-lg-4 p {
   margin-left: 10px;

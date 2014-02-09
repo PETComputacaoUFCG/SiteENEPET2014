@@ -44,21 +44,26 @@
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="../carousel/index.html">Início</a></li>
-                <li><a href="../navbar-static-top/">Informações</a></li>
-                <li><a href="../starter-template/">Programação</a></li>
-                <li><a href="../starter-template(3)/">Inscrições</a></li>
-                <li><a href="../starter-template(2)/">Alojamento</a></li>
-                <li><a href="#">Submissões</a></li>
+                <li><a href="../inicio/index.html">Início</a></li>
+                <li><a href="../informacoes/">Informações</a></li>
+                <li><a href="../programacao/">Programação</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Inscrições<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="http://enapet2013.ufpe.br/static/files/tutorialinscricao.pdf">Tutorial de inscrição</a></li>
+                    <li><a href="http://cobregratis.com.br/como-funciona-boleto-bancario/">Gerar boleto</a></li>
+                    <li><a href="../alojamentos/">Alojamentos</a></li>
+                  </ul>
+                </li>
+                <li><a href="../alojamentos/">Alojamento</a></li>
+                <li><a href="../submissao/">Submissões</a></li>
+                <li><a href="../noticias/">Noticias</a></li>
                 <li><a href="#">Contato</a></li>
             </div>
-            
           </div>
         </div>
-
       </div>
     </div>
-
 
     <!-- Carousel
     ================================================== -->
@@ -68,6 +73,7 @@
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner">
         <div class="item active">
@@ -91,7 +97,17 @@
           </div>
         </div>
         <div class="item">
-          <img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash2/t1/402005_536510653068481_443138835_n.jpg" alt="Que feio servidor :(">
+          <img src="../../../img/tropeiros.jpg/#666:#6a6a6a/text:LSI" alt="Que feio servidor :(">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Infraestrutura</h1>
+              <p>Leia mais sobre a infraestrutura do evento .</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Saiba mais</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="http://comoviaja.com.br/wp-content/uploads/2011/05/campina-cesardecesario216.jpg" alt="Que feio servidor :(">
           <div class="container">
             <div class="carousel-caption">
               <h1>A cidade</h1>
@@ -101,6 +117,7 @@
           </div>
         </div>
       </div>
+      
       <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </div><!-- /.carousel -->
@@ -119,27 +136,27 @@
           <img class="img-circle" src="../../../img/mapa.png" alt="Generic placeholder image">
           <h2>Localize-se</h2>
           <p>Saiba como encontrar os principais pontos turísticos, bares e restaurantes da cidade.</p>
-          <p><a class="btn btn-default" href="https://mapsengine.google.com/map/edit?mid=zAGap5rD_NV8.k6n7oTqlNsnQ" role="button">Ver Mapa</a></p>
+          <p><a class="btn btn-default" href="https://mapsengine.google.com/map/edit?mid=zAGap5rD_NV8.k6n7oTqlNsnQ" role="button">Ver Mapa &raquo</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="../../../img/logo_enepet_2014.jpg" alt="Generic placeholder image">
           <h2>O Evento</h2>
           <p>Fique por dentro de tudo que vai acontecer no ENEPET 2014!</p>
-          <p><a class="btn btn-default" href="../starter-template(3)/" role="button">Ver detalhes &raquo;</a></p>
+          <p><a class="btn btn-default" href="../informacoes/" role="button">Ver detalhes &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="../../../img/tema_enepet.jpg" alt="Generic placeholder image">
           <h2>Inscrições</h2>
           <p>Veja todas as informações sobre as incrições e tire suas dúvidas!</p>
-          <p><a class="btn btn-default" href="#" role="button">Ver detalhes &raquo;</a></p>
+          <p><a class="btn btn-default" href="../inscricoes/" role="button">Ver detalhes &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
 
 <br> 
 <br> 
-
-
+<br> 
+<br> 
 
       © Desenvolvido pelo <a href="http://dsc.ufcg.edu.br/~pet">PET Computação UFCG</a>
     <!-- Bootstrap core JavaScript
