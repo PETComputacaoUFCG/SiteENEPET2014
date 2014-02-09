@@ -1,4 +1,3 @@
-
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -7,6 +6,8 @@ body {
   padding-bottom: 40px;
   color: #5a5a5a;
 }
+
+
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -25,10 +26,63 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
-.navbar-inverse{
-	background-color: #faefd9;
-	color: #5A5A5A;
+.navbar-wrapper .navbar {
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+.navbar-inverse{
+	background-color: #fcfae8;
+	color: #fffbdb;
+}
+
+.dropdown-toggle,.dropdown-toggle:hover{
+	background-color: #fcfae8;
+}
+
+.dropdown-menu,.dropdown-menu:hover{
+	background-color: #fcfae8;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+.btn-default, .btn-default:hover{
+	background-color:#bf3939;
+	color:white;
+
+}
+
+.btn-primary, .btn-primary:hover {
+   background-color: #bf3939;
+   color:white;
+}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -46,6 +100,7 @@ body {
 }
 .marketing h2 {
   font-weight: normal;
+  
 }
 .marketing .col-lg-4 p {
   margin-left: 10px;

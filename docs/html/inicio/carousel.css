@@ -54,10 +54,6 @@ body {
 	background-color: #fcfae8;
 }
 
-.navbar-collapse:hover{
-	color:#bf3939	
-}
-
 .dropdown-menu,.dropdown-menu:hover{
 	background-color: #fcfae8;
 }
@@ -74,11 +70,6 @@ body {
   min-width: 100%;
   height: 500px;
 }
-
-.collapse:hover{
-	background-color:#bf3939;
-}
-
 
 
 .btn-default, .btn-default:hover{
