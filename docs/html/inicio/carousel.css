@@ -19,16 +19,19 @@ body {
   left: 0;
   right: 0;
   z-index: 20;
+  
 }
 
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper .container {
   padding-left: 0;
   padding-right: 0;
+   
 }
 .navbar-wrapper .navbar {
   padding-left: 15px;
   padding-right: 15px;
+  border: 2px solid #fcfae8;;
 }
 
 
@@ -75,12 +78,14 @@ body {
 .btn-default, .btn-default:hover{
 	background-color:#bf3939;
 	color:white;
+	border: 1px solid #bf3939;
 
 }
 
 .btn-primary, .btn-primary:hover {
    background-color: #bf3939;
    color:white;
+   border: 1px solid #bf3939;
 }
 
 
@@ -148,6 +153,19 @@ body {
     padding-right: 0;
   }
 
+   .img-circle{
+   	border: 1px solid #bf3939;
+   }
+	
+	.menuver li a:hover {
+   color:#FFB90F;
+}
+
+	a.meulink:link {
+	color:#FF0000;
+}
+
+
   /* The navbar becomes detached from the top, so we round the corners */
   .navbar-wrapper .navbar {
     border-radius: 4px;
@@ -162,6 +180,7 @@ body {
 
   .featurette-heading {
     font-size: 50px;
+   
   }
 
 }
