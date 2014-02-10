@@ -75,14 +75,14 @@ body {
 }
 
 
-.btn-default, .btn-default:hover{
+.btn-default, .btn-default:hover, .btn-default:visited{
 	background-color:#bf3939;
 	color:white;
 	border: 1px solid #bf3939;
 
 }
 
-.btn-primary, .btn-primary:hover {
+.btn-primary, .btn-primary:hover, .btn-primary:visited {
    background-color: #bf3939;
    color:white;
    border: 1px solid #bf3939;
