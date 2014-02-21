@@ -29,12 +29,13 @@ body {
 .navbar-wrapper .navbar {
   padding-left: 15px;
   padding-right: 15px;
-  border: 2px solid #fcfae8;
+  border: 2px solid #f7f4df;
 }
 
 
 .jumbotron{
-	background-color: #fcfae8;
+	background-color: #f7f4df;
+	border: 2px solid #bf3939;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -51,8 +52,8 @@ body {
 }
 
 .navbar-inverse{
-	background-color: #fcfae8;
-	color: #fffbdb;
+	background-color: #f7f4df;
+	color: #f7f4df;
 }
 
 .dropdown-toggle,.dropdown-toggle:hover{

@@ -33,6 +33,15 @@ body {
   border: 2px solid #fcfae8;;
 }
 
+.jumbotron{
+	background-color: #fcfae8;
+	border: 2px solid #bf3939;
+}
+
+.a:link .a:hover{
+	color: #bf3939;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
