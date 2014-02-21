@@ -29,7 +29,12 @@ body {
 .navbar-wrapper .navbar {
   padding-left: 15px;
   padding-right: 15px;
-  border: 2px solid #fcfae8;;
+  border: 2px solid #fcfae8;
+}
+
+
+.jumbotron{
+	background-color: #fcfae8;
 }
 
 /* CUSTOMIZE THE CAROUSEL
