@@ -28,6 +28,12 @@ body {
   padding-right: 0;
    
 }
+.dropdown-menu,.dropdown-menu:hover,.dropdown-toggle{
+	background-color: #f7f4df;
+	
+}
+
+
 .navbar-wrapper .navbar {
   padding-left: 15px;
   padding-right: 15px;
@@ -53,13 +59,6 @@ body {
 	color: #fffbdb;
 }
 
-.dropdown-toggle,.dropdown-toggle:hover{
-	background-color: #fcfae8;
-}
-
-.dropdown-menu,.dropdown-menu:hover{
-	background-color: #fcfae8;
-}
 
 /* Declare heights because of positioning of img element */
 .carousel .item {

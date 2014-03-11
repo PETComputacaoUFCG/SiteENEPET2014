@@ -56,12 +56,9 @@ body {
 	color: #f7f4df;
 }
 
-.dropdown-toggle,.dropdown-toggle:hover{
-	background-color: #fcfae8;
-}
-
-.dropdown-menu,.dropdown-menu:hover{
-	background-color: #fcfae8;
+.dropdown-menu,.dropdown-menu:hover,.dropdown-toggle{
+	background-color: #f7f4df;
+	
 }
 
 /* Declare heights because of positioning of img element */
