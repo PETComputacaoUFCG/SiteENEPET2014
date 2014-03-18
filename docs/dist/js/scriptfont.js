@@ -1,3 +1,3 @@
 $('.navbar-nav').css({
-	'fontSize' : 15
+	'fontSize' : 16
 }); 
